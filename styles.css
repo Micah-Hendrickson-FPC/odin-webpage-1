@@ -1,0 +1,41 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+button, .signup {
+    background-color: #3882f6;
+    border: 0;
+    color: white;
+}
+
+.image {
+    background-color: grey;
+    color: #e5e7eb
+}
+
+.signup button {
+    border: 1px solid white;
+}
