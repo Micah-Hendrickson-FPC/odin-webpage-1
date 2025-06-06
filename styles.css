@@ -19,7 +19,7 @@ ul {
     padding: 0;
 }
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
