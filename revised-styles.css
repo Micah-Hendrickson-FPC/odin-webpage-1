@@ -16,6 +16,10 @@ body {
     justify-content: space-between;
 }
 
+.core-content {
+    min-height: 200px;
+}
+
 a {
     text-decoration: none;
 }
@@ -27,6 +31,7 @@ ul {
     display: flex;
     gap: 20px;
 }
+
 /****************************************************************************/
 /* Header */
 .header {
@@ -48,4 +53,29 @@ ul {
 .header-links a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+/****************************************************************************/
+/* Sub Header */
+.sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: #1f2937;
+    color: #e5e7eb
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882f6;
+    border: 0;
+    color: #f9faf8;
 }
