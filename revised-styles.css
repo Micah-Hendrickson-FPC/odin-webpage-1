@@ -197,3 +197,16 @@ h4 {
     border: 1px solid #f9faf8;
     margin-left: auto;
 }
+
+/****************************************************************************/
+/* Footer */
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 12px;
+}
