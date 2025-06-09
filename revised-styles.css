@@ -17,7 +17,7 @@ body {
 }
 
 .core-content {
-    min-height: 200px;
+    flex-basis: 200px;
 }
 
 a {
@@ -129,4 +129,30 @@ h2 {
     max-width: 250px;
     gap: 8px;
     text-align: center;
+}
+
+/****************************************************************************/
+/* Testimonial */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+}
+
+.testimonial-block {
+    max-width: 70%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.attribution {
+    text-align: right;
 }
