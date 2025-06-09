@@ -63,7 +63,9 @@ ul {
     justify-content: center;
     gap: 60px;
     background-color: #1f2937;
-    color: #e5e7eb
+    color: #e5e7eb;
+    padding: 14px;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -74,8 +76,22 @@ h1 {
     font-weight: 900;
 }
 
+.left-sh {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    max-width: 400px;
+}
+
+.right-sh {
+    max-width: 400px;
+}
+
 button {
     background-color: #3882f6;
     border: 0;
     color: #f9faf8;
+    padding: 8px 12px;
+    border-radius: 8px;
 }
